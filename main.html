@@ -6,57 +6,40 @@
     <title>Semantic Tables and Media</title>
 </head>
 <body>
-
-    <!-- Semantic Table -->
-    <table border="1">
+    <table>
+        <!-- Table Header -->
         <thead>
             <tr>
-                <th>Roll Number</th>
-                <th>Name</th>
+                <th>Requirement</th>
+                <th>Description</th>
             </tr>
         </thead>
         <tbody>
+            <!-- Table Rows -->
             <tr>
-                <td>101</td>
-                <td>John Doe</td>
+                <td>Columns</td>
+                <td>2 columns for Roll numbers and Names</td>
             </tr>
             <tr>
-                <td>102</td>
-                <td>Jane Smith</td>
+                <td>Rows</td>
+                <td>3 rows of data, i.e., 6 cells in total</td>
             </tr>
             <tr>
-                <td>103</td>
-                <td>Mike Johnson</td>
+                <td>Semantic Tags</td>
+                <td>Use appropriate semantic tags like thead, tbody, etc.</td>
             </tr>
         </tbody>
     </table>
 
-    <!-- Heading between table and list -->
-    <h2>List of medias</h2>
-
-    <!-- Ordered List with media -->
+    <h3>List of medias</h3>
     <ol>
-        <!-- First Item: Image -->
+        <li><img src="https://picsum.photos/id/123/200/300" alt="Description of image"></li>
         <li>
-            <img src="https://picsum.photos/id/123/200/300" alt="Random image from Picsum">
-        </li>
-
-        <!-- Second Item: Video -->
-        <li>
-            <video width="320" height="240" controls>
+            <video>
                 <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-                Your browser does not support the video tag.
             </video>
         </li>
-
-        <!-- Third Item: Audio -->
-        <li>
-            <audio controls>
-                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-                Your browser does not support the audio element.
-            </audio>
-        </li>
+        <li><audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"></audio></li>
     </ol>
-
 </body>
 </html>
